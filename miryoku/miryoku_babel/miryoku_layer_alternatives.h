@@ -89,7 +89,7 @@ U_NP,              U_NP,              U_LT(U_MEDIA, ESC),U_LT(U_NAV, SPACE),U_LT
 U_MT(LGUI, A),     U_MT(LALT, R),     U_MT(LCTRL, S),    U_MT(LSHFT, T),    &kp G,             &kp M,             U_MT(LSHFT, N),    U_MT(LCTRL, E),    U_MT(LALT, I),     U_MT(LGUI, O),     \
 U_LT(U_BUTTON, Z), U_MT(RALT, X),     &kp C,             &kp D,             &kp V,             &kp K,             &kp H,             &kp COMMA,         U_MT(RALT, DOT),   U_LT(U_BUTTON, SLASH),\
 U_NP,              U_NP,              U_LT(U_MEDIA, ESC),U_LT(U_NAV, SPACE),U_LT(U_MOUSE, TAB),U_LT(U_SYM, RET),  U_LT(U_NUM, BSPC), U_LT(U_FUN, DEL),  U_NP,              U_NP, \
-U_NP, U_NP, U_NP, U_NP, U_NP, U_NP
+U_NP, U_NP,  U_MT(U_WIN, LA(TAB)),  U_NP, U_NP, U_NP
 
 #define MIRYOKU_ALTERNATIVES_BASE_COLEMAKDHK \
 &kp Q,             &kp W,             &kp F,             &kp P,             &kp B,             &kp J,             &kp L,             &kp U,             &kp Y,             &kp SQT,           \
@@ -395,3 +395,10 @@ U_UND,             U_CUT,             U_CPY,             U_PST,             U_RD
 U_UND,             U_CUT,             U_CPY,             U_PST,             U_RDO,             U_RDO,             U_PST,             U_CPY,             U_CUT,             U_UND,             \
 U_NP,              U_NP,              U_BTN3,            U_BTN1,            U_BTN2,            U_BTN2,            U_BTN1,            U_BTN3,            U_NP,              U_NP, \
 U_NP, U_NP, U_NP, U_NP, U_NP, U_NP
+
+#define MIRYOKU_ALTERNATIVES_WIN \
+U_NP,   &kp LWIN(N7),   &kp LWIN(N8),         &kp LWIN(N9),         U_NP,             U_NP,             &kp LWIN(LC(LEFT)),   &kp LWIN(LS(LEFT)),   &kp LWIN(LS(RIGHT)),  &kp LWIN(LC(RIGHT)), \
+U_NP,   &kp LWIN(N4),   &kp LWIN(N5),         &kp LWIN(N6),         U_NP,             U_NP,             &kp LWIN(LEFT),       &kp LWIN(DOWN),       &kp LWIN(UP),         &kp LWIN(RIGHT), \
+U_NP,   &kp LWIN(N1),   &kp LWIN(N2),         &kp LWIN(N3),         U_NP,             U_NP,             U_NP,                 U_NP,                 U_NP,                 U_NP, \
+U_NP,   U_NP,           &kp LWIN(LC(LEFT)),   &kp LWIN(LC(RIGHT)),  &kp LWIN(LS(S)),  &kp LWIN(LC(D)),  U_NP,                 &kp LWIN(LC(F4)),     U_NP,                 U_NP, \
+U_NP,   U_NP, U_NP, U_NP, U_NP, U_NP
