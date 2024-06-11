@@ -1,70 +1,78 @@
 # Copyright 2022 Manna Harbour
 # https://github.com/manna-harbour/miryoku
 
-name: 'Build Inputs'
+name: "Build Inputs"
 on:
   workflow_dispatch:
     inputs:
       board:
-        description: 'board'
+        description: "board"
         required: true
       shield:
-        description: 'shield'
+        description: "shield"
         required: false
-        default: 'default'
+        default: "default"
       alphas:
-        description: 'alphas'
+        description: "alphas"
         required: false
-        default: 'default'
+        default: "default"
         type: choice
         options:
-        - "default"
-        - "AZERTY"
-        - "BEAKL15"
-        - "Colemak"
-        - "ColemakDHK"
-        - "Dvorak"
-        - "Halmak"
-        - "QWERTY"
-        - "QWERTZ"
-        - "Workman"
+          - "default"
+          - "AZERTY"
+          - "BEAKL15"
+          - "Colemak"
+          - "ColemakDHK"
+          - "Dvorak"
+          - "Halmak"
+          - "QWERTY"
+          - "QWERTZ"
+          - "Workman"
+      extra:
+        description: "extra"
+        required: false
+        default: "default"
+        type: choice
+        options:
+          - "default"
+          - "AZERTY"
+          - "BEAKL15"
+          - "Colemak"
+          - "ColemakDH"
+          - "ColemakDHK"
+          - "Dvorak"
+          - "Halmak"
+          - "QWERTZ"
+          - "Workman"
       nav:
-        description: 'nav'
+        description: "nav"
         required: false
-        default: 'default'
+        default: "default"
         type: choice
         options:
-        - "default"
-        - "invertedT"
-        - "vi"
-      layers:
-        description: 'layers'
-        required: false
-        default: 'default'
-        type: choice
-        options:
-        - "default"
-        - "flip"
+          - "default"
+          - "invertedT"
+          - "vi"
       mapping:
-        description: 'mapping'
+        description: "mapping"
         required: false
-        default: 'default'
+        default: "default"
       custom_config:
-        description: 'custom_config'
+        description: "custom_config"
         required: false
-        default: 'default'
+        default: "default"
       kconfig:
-        description: 'kconfig'
+        description: "kconfig"
         required: false
-        default: 'default'
+        default: "default"
       branches:
-        description: 'branches'
+        description: "branches"
         required: false
-        default: 'default'
+        default: "default"
       modules:
-        description: 'modules'
+        description: "modules"
         required: false
-        default: 'default'
+        default: "default"
 jobs:
   process-inputs:
     runs-on: ubuntu-latest
@@ -72,8 +80,8 @@ jobs:
       board: ${{ steps.process-inputs.outputs.board }}
       shield: ${{ steps.process-inputs.outputs.shield }}
       alphas: ${{ steps.process-inputs.outputs.alphas }}
+      extra: ${{ steps.process-inputs.outputs.extra }}
       nav: ${{ steps.process-inputs.outputs.nav }}
-      layers: ${{ steps.process-inputs.outputs.layers }}
       mapping: ${{ steps.process-inputs.outputs.mapping }}
       custom_config: ${{ steps.process-inputs.outputs.custom_config }}
       kconfig: ${{ steps.process-inputs.outputs.kconfig }}
@@ -91,8 +99,8 @@ jobs:
           set-output "board" "${{ github.event.inputs.board }}"
           set-output "shield" "${{ github.event.inputs.shield }}"
           set-output "alphas" "${{ github.event.inputs.alphas }}"
+          set-output "extra" "${{ github.event.inputs.extra }}"
           set-output "nav" "${{ github.event.inputs.nav }}"
-          set-output "layers" "${{ github.event.inputs.layers }}"
           set-output "mapping" "${{ github.event.inputs.mapping }}"
           set-output "custom_config" "${{ github.event.inputs.custom_config }}"
           set-output "kconfig" "${{ github.event.inputs.kconfig }}"
@@ -106,8 +114,8 @@ jobs:
       board: ${{ needs.process-inputs.outputs.board }}
       shield: ${{ needs.process-inputs.outputs.shield }}
       alphas: ${{ needs.process-inputs.outputs.alphas }}
+      extra: ${{ needs.process-inputs.outputs.extra }}
       nav: ${{ needs.process-inputs.outputs.nav }}
-      layers: ${{ needs.process-inputs.outputs.layers }}
       mapping: ${{ needs.process-inputs.outputs.mapping }}
       custom_config: ${{ needs.process-inputs.outputs.custom_config }}
       kconfig: ${{ needs.process-inputs.outputs.kconfig }}
