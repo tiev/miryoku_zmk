@@ -19,6 +19,42 @@
   }; \
 };
 
+/ {
+  macros {
+    tmx: tmx {
+      compatible = "zmk,behavior-macro-one-param";
+      #binding-cells = <1>;
+      bindings
+        = <&macro_tap &kp LC(SPACE)>
+        , <&macro_param_1to1>
+        , <&macro_tap &kp MACRO_PLACEHOLDER>
+        ;
+    };
+  };
+};
+
+&sl {
+  release-after-ms = <200>;
+};
+
+/ {
+  macros {
+    lth: lth {
+      compatible = "zmk,behavior-macro-two-param";
+      #binding-cells = <2>;
+      bindings
+        = <&macro_param_2to1>
+        , <&macro_press &mo MACRO_PLACEHOLDER>
+        , <&macro_pause_for_release>
+        , <&macro_param_2to1>
+        , <&macro_release &mo MACRO_PLACEHOLDER>
+        , <&macro_param_1to1>
+        , <&macro_tap &sl MACRO_PLACEHOLDER>
+        ;
+    };
+  };
+};
+
 #define U_NP &none // key is not present
 #define U_NA &none // present but not available for use
 #define U_NU &none // available but not used
