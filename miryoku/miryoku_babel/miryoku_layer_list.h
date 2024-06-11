@@ -18,6 +18,7 @@ MIRYOKU_X(NUM,    "Num") \
 MIRYOKU_X(SYM,    "Sym") \
 MIRYOKU_X(FUN,    "Fun") \
 MIRYOKU_X(WIN,    "Win") \
+MIRYOKU_X(APP,    "App") \
 MIRYOKU_X(TMUX_TAP, "Tmux Tap") \
 MIRYOKU_X(TMUX_HOLD, "Tmux Hold") \
 MIRYOKU_X(VIVALDI, "Vivaldi")
@@ -33,8 +34,9 @@ MIRYOKU_X(VIVALDI, "Vivaldi")
 #define U_SYM         8
 #define U_FUN         9
 #define U_WIN         10
-#define U_TMUX_TAP    11
-#define U_TMUX_HOLD   12
-#define U_VIVALDI     13
+#define U_APP         11
+#define U_TMUX_TAP    12
+#define U_TMUX_HOLD   13
+#define U_VIVALDI     14
 
 #endif

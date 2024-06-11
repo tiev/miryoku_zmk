@@ -91,6 +91,13 @@ U_LT(U_BUTTON, Z), U_MT(RALT, X),     &kp C,             &kp D,             &kp 
 U_NP,              U_NP,              U_LT(U_MEDIA, ESC),U_LT(U_NAV, SPACE),U_LT(U_MOUSE, TAB),U_LT(U_SYM, RET),  U_LT(U_NUM, BSPC), U_LT(U_FUN, DEL),  U_NP,              U_NP, \
 &kp LG(GRAVE),  &lth U_TMUX_TAP U_TMUX_HOLD,  U_LT(U_WIN, LA(TAB)),  U_NA, U_LT(U_VIVALDI, F2), U_NA
 
+#define MIRYOKU_ALTERNATIVES_BASE_COLEMAKDH_MAC \
+&kp Q,             &kp W,             &kp F,             &kp P,             &kp B,             &kp J,             &kp L,             &kp U,             &kp Y,             &kp SQT,           \
+U_MT(LGUI, A),     U_MT(LALT, R),     U_MT(LCTRL, S),    U_MT(LSHFT, T),    &kp G,             &kp M,             U_MT(LSHFT, N),    U_MT(LCTRL, E),    U_MT(LALT, I),     U_MT(LGUI, O),     \
+U_LT(U_BUTTON, Z), U_MT(RALT, X),     &kp C,             &kp D,             &kp V,             &kp K,             &kp H,             &kp COMMA,         U_MT(RALT, DOT),   U_LT(U_BUTTON, SLASH),\
+U_NP,              U_NP,              U_LT(U_MEDIA, ESC),U_LT(U_NAV, SPACE),U_LT(U_MOUSE, TAB),U_LT(U_SYM, RET),  U_LT(U_NUM, BSPC), U_LT(U_FUN, DEL),  U_NP,              U_NP, \
+&kp LG(GRAVE),  &lth U_TMUX_TAP U_TMUX_HOLD,  U_LT(U_APP, LG(TAB)),  U_NA, U_NA, U_NA
+
 #define MIRYOKU_ALTERNATIVES_BASE_COLEMAKDHK \
 &kp Q,             &kp W,             &kp F,             &kp P,             &kp B,             &kp J,             &kp L,             &kp U,             &kp Y,             &kp SQT,           \
 U_MT(LGUI, A),     U_MT(LALT, R),     U_MT(LCTRL, S),    U_MT(LSHFT, T),    &kp G,             &kp K,             U_MT(LSHFT, N),    U_MT(LCTRL, E),    U_MT(LALT, I),     U_MT(LGUI, O),     \
@@ -402,6 +409,13 @@ U_NA,   &kp LG(N4),   &kp LG(N5),         &kp LG(N6),         U_NA,             
 U_NA,   &kp LG(N1),   &kp LG(N2),         &kp LG(N3),         U_NA,             U_NA,             U_NA,                 U_NA,                 U_NA,                 U_NA, \
 U_NP,   U_NP,           &kp LG(LC(LEFT)),   &kp LG(LC(RIGHT)),  &kp LG(LS(S)),  &kp LG(LC(D)),  U_NA,                 &kp LG(LC(F4)),     U_NP,                 U_NP, \
 U_NA,   U_NA, U_NA, U_NA, U_NA, U_NA
+
+#define MIRYOKU_ALTERNATIVES_APP \
+U_NA, U_NA, U_NA,       U_NA,             U_NA,           U_NA, &kp LC(LS(LEFT)), &kp LG(LC(LA(LEFT))), &kp LG(LC(LA(RIGHT))), &kp LC(LS(RIGHT)), \
+U_NA, U_NA, U_NA,       &kp LG(GRAVE),    U_NA,           U_NA, &kp LC(LA(LEFT)), &kp LC(LA(DOWN)),     &kp LC(LA(UP)),        &kp LC(LA(RIGHT)), \
+U_NA, U_NA, U_NA,       U_NA,             U_NA,           U_NA, U_NA,             U_NA,                 U_NA,                  U_NA, \
+U_NP, U_NP, &kp LC(F3), &kp LC(LS(DOWN)), &kp LC(LS(UP)), U_NA, U_NA,             U_NA,                 U_NP,                  U_NP, \
+U_NA, U_NA, U_NA, U_NA, U_NA, U_NA
 
 #define MIRYOKU_ALTERNATIVES_TMUX_TAP \
 U_NA,   &tmx N7,  &tmx N8,  &tmx N9,  U_NA,         U_NA,        U_NA,        U_NA,        U_NA,      U_NA, \

@@ -39,6 +39,7 @@ on:
           - "BEAKL15"
           - "Colemak"
           - "ColemakDH"
+          - "ColemakDH_MAC"
           - "ColemakDHK"
           - "Dvorak"
           - "Halmak"
