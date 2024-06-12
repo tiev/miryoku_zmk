@@ -21,7 +21,8 @@ MIRYOKU_X(WIN,    "Win") \
 MIRYOKU_X(APP,    "App") \
 MIRYOKU_X(TMUX_TAP, "Tmux Tap") \
 MIRYOKU_X(TMUX_HOLD, "Tmux Hold") \
-MIRYOKU_X(VIVALDI, "Vivaldi")
+MIRYOKU_X(VIVALDI, "Vivaldi") \
+MIRYOKU_X(VIVALDI_MAC, "Vivaldi Mac")
 
 #define U_BASE        0
 #define U_EXTRA       1
@@ -38,5 +39,6 @@ MIRYOKU_X(VIVALDI, "Vivaldi")
 #define U_TMUX_TAP    12
 #define U_TMUX_HOLD   13
 #define U_VIVALDI     14
+#define U_VIVALDI_MAC 15
 
 #endif
