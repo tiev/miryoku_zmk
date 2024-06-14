@@ -406,8 +406,8 @@ U_NA, U_NA, U_NA, U_NA, U_NA, U_NA
 #define MIRYOKU_ALTERNATIVES_WIN \
 U_NA,   &kp LG(N7),   &kp LG(N8),         &kp LG(N9),         U_NA,             U_NA,             &kp LG(LC(LEFT)),   &kp LG(LS(LEFT)),   &kp LG(LS(RIGHT)),  &kp LG(LC(RIGHT)), \
 U_NA,   &kp LG(N4),   &kp LG(N5),         &kp LG(N6),         U_NA,             U_NA,             &kp LG(LEFT),       &kp LG(DOWN),       &kp LG(UP),         &kp LG(RIGHT), \
-U_NA,   &kp LG(N1),   &kp LG(N2),         &kp LG(N3),         U_NA,             U_NA,             U_NA,                 U_NA,                 U_NA,                 U_NA, \
-U_NP,   U_NP,           &kp LG(LC(LEFT)),   &kp LG(LC(RIGHT)),  &kp LG(LS(S)),  &kp LG(LC(D)),  U_NA,                 &kp LG(LC(F4)),     U_NP,                 U_NP, \
+U_NA,   &kp LG(N1),   &kp LG(N2),         &kp LG(N3),         U_NA,             U_NA,             U_NA,               &kp LG(PG_DN),      &kp LG(PG_UP),      U_NA, \
+U_NP,   U_NP,         &kp LG(LC(LEFT)),   &kp LG(LC(RIGHT)),  &kp LG(LS(S)),    &kp LG(LC(D)),    U_NA,               &kp LG(LC(F4)),     U_NP,               U_NP, \
 U_NA,   U_NA, U_NA, U_NA, U_NA, U_NA
 
 #define MIRYOKU_ALTERNATIVES_APP \
