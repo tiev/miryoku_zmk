@@ -418,18 +418,18 @@ U_NP, U_NP, &kp LC(F3), &kp LC(LS(DOWN)), &kp LC(LS(UP)), U_NA, U_NA,           
 U_NA, U_NA, U_NA, U_NA, U_NA, U_NA
 
 #define MIRYOKU_ALTERNATIVES_TMUX_TAP \
-U_NA,   &tmx N7,  &tmx N8,  &tmx N9,  U_NA,         U_NA,        U_NA,        U_NA,        U_NA,      U_NA, \
-U_NA,   &tmx N4,  &tmx N5,  &tmx N6,  U_NA,         &tmx PIPE,   &tmx LEFT,   &tmx DOWN,   &tmx UP,   &tmx RIGHT, \
-U_NA,   &tmx N1,  &tmx N2,  &tmx N3,  U_NA,         &tmx MINUS,  U_NA,        U_NA,        U_NA,      U_NA, \
-U_NP,   U_NP,     U_NA,     &tmx Z,   &tmx LS(Z),   &tmx RET,    &tmx C,      &tmx X,      U_NP,      U_NP, \
-U_NA,   &tmx A,   U_NA,     U_NA,     &tmx LBKT,    U_NA
+U_NA,   &tmx N7,  &tmx N8,      &tmx N9,  U_NA,         U_NA,        U_NA,        U_NA,        U_NA,      U_NA, \
+U_NA,   &tmx N4,  &tmx N5,      &tmx N6,  U_NA,         &tmx PIPE,   &tmx LEFT,   &tmx DOWN,   &tmx UP,   &tmx RIGHT, \
+U_NA,   &tmx N1,  &tmx N2,      &tmx N3,  U_NA,         &tmx MINUS,  U_NA,        U_NA,        U_NA,      U_NA, \
+U_NP,   U_NP,     &tmx LS(Z),   &tmx Z,   &tmx TAB,     &tmx RET,    &tmx C,      &tmx X,      U_NP,      U_NP, \
+U_NA,   &tmx A,   U_NA,         U_NA,     &tmx LBKT,    U_NA
 
 #define MIRYOKU_ALTERNATIVES_TMUX_HOLD \
-U_NA,   &tmx N7,  &tmx N8,   &tmx N9,   U_NA,   U_NA,        &tmx LA(LEFT),   &tmx LA(DOWN),  &tmx LA(UP),  &tmx LA(RIGHT), \
-U_NA,   &tmx N4,  &tmx N5,   &tmx N6,   U_NA,   &tmx PIPE,   &tmx LEFT,       &tmx DOWN,      &tmx UP,      &tmx RIGHT, \
-U_NA,   &tmx N1,  &tmx N2,   &tmx N3,   U_NA,   &tmx MINUS,  U_NA,            U_NA,           U_NA,         U_NA, \
-U_NP,   U_NP,     U_NA,      U_NA,      U_NA,   U_NA,        U_NA,            U_NA,           U_NP,         U_NP, \
-U_NA,   U_NA,     U_NA,      U_NA,      U_NA,   U_NA
+U_NA,   &tmx N7,  &tmx N8,   &tmx N9,   U_NA,     U_NA,        &tmx LA(LEFT),   &tmx LA(DOWN),  &tmx LA(UP),  &tmx LA(RIGHT), \
+U_NA,   &tmx N4,  &tmx N5,   &tmx N6,   U_NA,     &tmx PIPE,   &tmx LEFT,       &tmx DOWN,      &tmx UP,      &tmx RIGHT, \
+U_NA,   &tmx N1,  &tmx N2,   &tmx N3,   U_NA,     &tmx MINUS,  U_NA,            U_NA,           U_NA,         U_NA, \
+U_NP,   U_NP,     U_NA,      U_NA,      &tmx A,   U_NA,        U_NA,            U_NA,           U_NP,         U_NP, \
+U_NA,   U_NA,     U_NA,      U_NA,      U_NA,     U_NA
 
 #define MIRYOKU_ALTERNATIVES_VIVALDI \
 U_NA,   U_NA,        &kp LC(PG_UP),  &kp LC(PG_DN),     U_NA,    U_NA,   U_NA,     U_NA,      U_NA,      U_NA, \
