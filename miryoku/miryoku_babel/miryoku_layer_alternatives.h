@@ -432,15 +432,15 @@ U_NP,   U_NP,     U_NA,      U_NA,      U_NA,   U_NA,        U_NA,            U_
 U_NA,   U_NA,     U_NA,      U_NA,      U_NA,   U_NA
 
 #define MIRYOKU_ALTERNATIVES_VIVALDI \
-U_NA,   U_NA,        U_NA,           U_NA,            U_NA,    U_NA,   U_NA,     U_NA,      U_NA,      U_NA, \
-U_NA,   U_NA,        &kp LC(LS(S)),  &kp LA(LC(UP)),  &kp F4,  U_NA,   U_NA,     U_NA,      U_NA,      U_NA, \
-U_NA,   &kp LC(F1),  &kp LC(DOT),    &kp LA(LC(DOWN)),U_NA,    U_NA,   U_NA,     U_NA,      U_NA,      U_NA, \
-U_NP,   U_NP,        U_NA,           U_NA,            U_NA,    U_NA,   U_NA,     U_NA,      U_NP,      U_NP, \
-U_NA,   &kp LC(F11), U_NA,           U_NA,            U_NA,    U_NA
+U_NA,   U_NA,        &kp LC(PG_UP),  &kp LC(PG_DN),     U_NA,    U_NA,   U_NA,     U_NA,      U_NA,      U_NA, \
+U_NA,   U_NA,        &kp LC(LS(S)),  &kp LA(LC(UP)),    &kp F4,  U_NA,   U_NA,     U_NA,      U_NA,      U_NA, \
+U_NA,   &kp LC(F1),  &kp LC(DOT),    &kp LA(LC(DOWN)),  U_NA,    U_NA,   U_NA,     U_NA,      U_NA,      U_NA, \
+U_NP,   U_NP,        U_NA,           U_NA,              U_NA,    U_NA,   U_NA,     U_NA,      U_NP,      U_NP, \
+U_NA,   &kp LC(F11), U_NA,           U_NA,              U_NA,    U_NA
 
 #define MIRYOKU_ALTERNATIVES_VIVALDI_MAC \
-U_NA,   U_NA,        U_NA,           U_NA,            U_NA,    U_NA,   U_NA,     U_NA,      U_NA,      U_NA, \
-U_NA,   U_NA,        &kp LG(BSLH),   &kp LG(LA(UP)),  &kp F4,  U_NA,   U_NA,     U_NA,      U_NA,      U_NA, \
-U_NA,   &kp LG(F1),  &kp LC(DOT),    &kp LG(LA(DOWN)),U_NA,    U_NA,   U_NA,     U_NA,      U_NA,      U_NA, \
-U_NP,   U_NP,        U_NA,           U_NA,            U_NA,    U_NA,   U_NA,     U_NA,      U_NP,      U_NP, \
-U_NA,   &kp LG(F10), U_NA,           U_NA,            U_NA,    U_NA
+U_NA,   U_NA,        &kp LG(LS(LBRC)),  &kp LG(LS(RBRC)),   U_NA,    U_NA,   U_NA,     U_NA,      U_NA,      U_NA, \
+U_NA,   U_NA,        &kp LG(SLASH),     &kp LG(LA(UP)),     &kp F4,  U_NA,   U_NA,     U_NA,      U_NA,      U_NA, \
+U_NA,   &kp LG(F1),  &kp LC(DOT),       &kp LG(LA(DOWN)),   U_NA,    U_NA,   U_NA,     U_NA,      U_NA,      U_NA, \
+U_NP,   U_NP,        U_NA,              U_NA,               U_NA,    U_NA,   U_NA,     U_NA,      U_NP,      U_NP, \
+U_NA,   &kp LG(F10), U_NA,              U_NA,               U_NA,    U_NA
