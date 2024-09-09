@@ -411,10 +411,10 @@ U_NP,   U_NP,         &kp LG(LC(LEFT)),   &kp LG(LC(RIGHT)),  &kp LG(LS(S)),    
 U_NA,   U_NA, U_NA, U_NA, U_NA, U_NA
 
 #define MIRYOKU_ALTERNATIVES_APP \
-U_NA, U_NA, U_NA,       U_NA,             U_NA,           U_NA, &kp LC(LS(LEFT)), &kp LG(LC(LA(LEFT))), &kp LG(LC(LA(RIGHT))), &kp LC(LS(RIGHT)), \
-U_NA, U_NA, U_NA,       &kp LG(GRAVE),    U_NA,           U_NA, &kp LC(LA(LEFT)), &kp LC(LA(DOWN)),     &kp LC(LA(UP)),        &kp LC(LA(RIGHT)), \
-U_NA, U_NA, U_NA,       U_NA,             U_NA,           U_NA, U_NA,             U_NA,                 U_NA,                  U_NA, \
-U_NP, U_NP, &kp LC(F3), &kp LC(LS(DOWN)), &kp LC(LS(UP)), U_NA, U_NA,             U_NA,                 U_NP,                  U_NP, \
+&kp LG(LS(N4)),   U_NA, U_NA,       U_NA,             U_NA,           U_NA, &kp LC(LS(LEFT)), &kp LG(LC(LA(LEFT))), &kp LG(LC(LA(RIGHT))), &kp LC(LS(RIGHT)), \
+U_NA,             U_NA, U_NA,       &kp LG(GRAVE),    U_NA,           U_NA, &kp LC(LA(LEFT)), &kp LC(LA(DOWN)),     &kp LC(LA(UP)),        &kp LC(LA(RIGHT)), \
+U_NA,             U_NA, U_NA,       U_NA,             U_NA,           U_NA, U_NA,             U_NA,                 U_NA,                  U_NA, \
+U_NP,             U_NP, &kp LC(F3), &kp LC(LS(DOWN)), &kp LC(LS(UP)), U_NA, U_NA,             U_NA,                 U_NP,                  U_NP, \
 U_NA, U_NA, U_NA, U_NA, U_NA, U_NA
 
 #define MIRYOKU_ALTERNATIVES_TMUX_TAP \
