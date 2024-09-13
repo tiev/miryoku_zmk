@@ -2,6 +2,6 @@
 // https://github.com/manna-harbour/miryoku
 
 #define U_WIN_TERM &kp LG(GRAVE)
-#define U_MAC_TERM &kp LG(LA(GRAVE))
+#define U_MAC_TERM &kp LG(LS(GRAVE))
 #define U_WIN_LANG &kp LG(SPACE)
 #define U_MAC_LANG &kp LC(LS(SPACE))
